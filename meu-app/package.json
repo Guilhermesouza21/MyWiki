@@ -2,12 +2,16 @@
   "name": "meu-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Guilhermesouza21.github.io/MyWiki",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+    
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
