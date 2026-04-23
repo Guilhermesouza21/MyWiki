@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+/* ============================================ */
+    /* ÁREA DE TEXTO PRINCIPAL (CONTEÚDO)           */
+    /* ============================================ */
+    .content-area {
+      flex: 1;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      border: 2px solid #3a5a7a;
+      border-radius: 5px;
+      padding: 40px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+      max-width: 1000px;   /* melhor que width fixo */
+      margin: 0 0 0 55px;  /* topo = 0 */
+      margin-bottom: 1px;
+      margin-top: 100px;
+      
+      }
+
+
+      .page-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  color: #e8dcc8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+    /* Citação destacada */
+    .featured-quote {
+      background: #0a0e12;
+      padding: 20px 25px;
+      border-left: 5px solid #c49a2b;
+      margin-bottom: 25px;
+    }
+
+    .featured-quote p {
+      font-size: 1.3rem;
+      color: #e8dcc8;
+      font-style: italic;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
+
+    .featured-quote cite {
+      color: #8a9eb5;
+      font-style: normal;
+      font-size: 0.9rem;
+      display: block;
+      text-align: right;
+    }
+
+    .audio-indicator {
+      margin-top: 10px;
+      color: #6b8aab;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Texto principal */
+    .main-text {
+      color: #c5d0da;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    .main-text p {
+      margin-bottom: 18px;
+      text-align: justify;
+    }
+
+    .main-text strong {
+      color: #c49a2b;
+      font-weight: 600;
+    }
+
+    /* Notas de rodapé */
+    .footnotes {
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid #2a3a4a;
+    }
+
+    .footnote {
+      font-size: 0.8rem;
+      color: #8a9eb5;
+      margin-bottom: 5px;
+    }
+
+    .footnote sup {
+      color: #c49a2b;
+      margin-right: 5px;
+    }
+
+    /* Separador decorativo */
+    .divider {
+      text-align: center;
+      color: #4a6a8a;
+      margin: 20px 0;
+      letter-spacing: 5px;
+    }
+
+    /* DESKTOP (padrão) */
+.wiki-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .wiki-layout {
+        flex-direction: column;
+        
+        
+      }
+
+      .infobox {
+        width: 100%;
+      }
+    }
+
+
+    
