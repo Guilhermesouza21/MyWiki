@@ -2,7 +2,7 @@
 
 MyWiki é um site estático inspirado em wikis de fandom da internet, mas com um conceito diferente: toda a wiki é baseada em mim.
 
-O projeto simula uma enciclopédia pessoal, com páginas organizadas em estilo wiki.
+O projeto simula uma enciclopédia pessoal, com páginas organizadas em estilo wiki.( ATENÇÃO ISSO É PROTÓTIPO TESTE AINDA EM ANDAMENTO )
 
 ---
 
@@ -47,4 +47,11 @@ Execute o projeto:
 
 npm run dev
 
+---
+
+
 ## Link
+
+--https://guilhermesouza21.github.io/MyWiki/
+
+
