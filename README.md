@@ -29,11 +29,22 @@ Este projeto foi desenvolvido com o objetivo de:
 
 ---
 
----
+## Como baixar o projeto
 
+Clone o repositório:
 
+git clone https://github.com/Guilhermesouza21/MyWiki.git
 
----
+Entre na pasta:
 
+cd MyWiki
 
+Instale as dependências:
 
+npm install
+
+Execute o projeto:
+
+npm run dev
+
+## Link
